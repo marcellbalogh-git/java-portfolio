@@ -16,8 +16,8 @@ public class Inventory {
         items.add(new Meele(name, stat, reach));
     }
 
-    public void addItem(String name, String effect, String stat) {
-        items.add(new Throwable(name, effect, stat));
+    public void addItem(String name, String stat, String effect) {
+        items.add(new Throwable(name, stat, effect));
     }
 
     public void addItem(String name, String stat) {
